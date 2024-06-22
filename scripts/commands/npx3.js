@@ -26,9 +26,9 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
+	if (body.indexOf("💘")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf("😘")==0 || body.indexOf("🌸")==0 || body.indexOf("😚")==0 || body.indexOf("😙")==0 || body.indexOf("😗")==0 || body.indexOf("😉")==0 || body.indexOf("❤️‍🔥")==0) {
 		var msg = {
-				body: "🖤🥀",
+				body: "ভালোবাসা সুন্দর যদি কারো মায়ায় না পড়!!!🖤🥀",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
