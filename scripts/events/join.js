@@ -54,7 +54,7 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি বস সৌরভ ভাইয়ের-𝐁𝐎𝐓 তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি বস সৌরভ ভাইয়ের-𝐁𝐎𝐓 তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nনমস্কার🙏☘️
 <------------------------------>  
 𝚂𝙾𝚄𝚁𝙰𝚅-BOT CONNECTED SUCCESFUL !!!
 
@@ -67,7 +67,7 @@ ____________________________________
 সৌরভ_কে নক করতে পারেন 
 👉FB link: https://www.facebook.com/profile.php?id=100075964867229
 -
-`, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_1720122795185792.mp4")}, threadID));
+`, attachment: fs.createReadStream(__dirname + "/Nayan/join/InShot_20240409_203230413.mp4")}, threadID));
 })
 .catch(error => {
     console.error(error);
